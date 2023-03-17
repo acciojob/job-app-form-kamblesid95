@@ -14,33 +14,37 @@
             <input type="name" required>
         </div>
         <div>
-            <label for="Email"></label>
-            <input type="Emai" required>
+            <label for="Email">Email*</label>
+            <input type="email" required>
         </div>
         <div>
-            <label>Gender</label>
-            <input type="radio" name="Gender">Male <br>
-            <input type="radio" name="Gender">FeMale <br>
-            <input type="radio" name="Gender">Other <br>            
+            <label>Gender*</label><br>
+            <input type="radio" name="Gender" required>Male <br>
+            <input type="radio" name="Gender" required>FeMale <br>
+            <input type="radio" name="Gender" required>Other <br>            
         </div>
-        <section>
+        <select required>
             <option value="Apple">Apple</option>
             <option value="Asus">Asus</option>
             <option value="HP">HP</option>
-        </section>
+        </select>
         <div>
            <label for="age">Age*</label>
-           <input type="number" name="age" id="age">
+           <input type="number" name="age" id="age" required>
         </div>
         <div>
-            <label for="dob">dob</label>
-            <input type="date" name="date" id="dob">
+            <label for="dob">DOB</label>
+            <input type="date" name="date" id="dob" required>
         </div>
         <div>
-            <label for="password">password</label>
-            <input type="password" id="password">
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
         </div>
         <input type="submit" value="submit">
+		<div>
+			<lable for="url">URL</lable>
+			<input type="url" id="portfolio">
+		</div>
     </form>
 
 
