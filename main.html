@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <form action="post">
+    <form method="post">
         <div>
             <label for="name">Name*</label>
             <input type="name" id="name" required>
@@ -22,10 +22,11 @@
             <input type="radio" name="gender" required>Male <br>
             <input type="radio" name="gender" required>FeMale <br>            
         </div>
+		<lable>Laptop</lable>
         <select required>
-            <option value="Apple">Apple</option>
-            <option value="Asus">Asus</option>
-            <option value="HP">HP</option>
+            <option value="Apple"id="laptop" >Apple</option>
+            <option value="Asus" id="laptop">Asus</option>
+            <option value="HP" id="laptop">HP</option>
         </select>
         <div>
            <label for="age">Age*</label>
